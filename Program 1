@@ -1,0 +1,17 @@
+#Samuel Foss
+#Program 1 GUI window
+#11/15/2024
+
+import tkinter as tk
+
+window = tk.Tk()
+window.geometry("500x300")
+window.title("Sam's Favorite Saying")
+favoritesaying = "Never Give Up."
+
+
+words = tk.Label(window, text=favoritesaying, justify="center")
+words.pack(expand=True)
+
+
+window.mainloop()
