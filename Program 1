@@ -15,3 +15,8 @@ words.pack(expand=True)
 
 
 window.mainloop()
+
+
+#Output
+
+#Process Finished with exit code 0
