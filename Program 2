@@ -1,0 +1,27 @@
+#Samuel Foss
+#Program 2 GUI
+#11/15/2024
+
+import tkinter as tk
+def info():
+    address = "16276 Creekwood Rd, Prior Lake, MN"
+    name = "Samuel Foss"
+    infoname.config(text=f"Name: {name}\nAddress: {address}")
+def quit():
+    main.quit()
+main = tk.Tk()
+main.geometry("500x300")
+main.title("Sam's Info")
+
+showoption = tk.Button(main, font=(15), text="Show Info", command=info)
+showoption.pack(pady=15)
+infoname = tk.Label(main, font=(15), text="")
+infoname.pack(pady=15)
+quitoption = tk.Button(main, font=(15), text="Quit", command=quit)
+quitoption.pack(pady=0)
+
+main.mainloop()
+
+#Output
+#
+#Process finished with exit code 0
